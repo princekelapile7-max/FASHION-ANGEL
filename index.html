@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fashion Angel</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background: #f4f4f4;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid #e3e3e3;
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      color: #333;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(to right, #fceabb, #f8b500);
+      color: #222;
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: auto;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #eee;
+      display: inline-block;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      border: 1px solid #eee;
+      border-radius: 10px;
+      padding: 1rem;
+      background: #fafafa;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #f4f4f4;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Fashion Angel Logo" />
+    <nav>
+      <a href="#trends">Trends</a>
+      <a href="#style">Style Tips</a>
+      <a href="#inspiration">Inspiration</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Fashion Angel</h1>
+    <p>Your guide to the latest fashion trends, timeless style advice, and inspiration to express your unique self.</p>
+  </section>
+
+  <section id="trends">
+    <h2>Latest Trends</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Fall Collection 2025</h3>
+        <p>Explore bold colors, layered textures, and chic outerwear for the upcoming season.</p>
+      </div>
+      <div class="card">
+        <h3>Streetwear Revival</h3>
+        <p>From oversized fits to statement sneakers, see what’s hot in the world of street fashion.</p>
+      </div>
+      <div class="card">
+        <h3>Sustainable Fashion</h3>
+        <p>Eco-friendly fabrics and conscious brands shaping the future of style.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="style">
+    <h2>Style Tips</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Wardrobe Basics</h3>
+        <p>Learn how to build a capsule wardrobe with essentials that never go out of style.</p>
+      </div>
+      <div class="card">
+        <h3>Accessorizing Smart</h3>
+        <p>Elevate your look with the right bags, shoes, and jewelry combinations.</p>
+      </div>
+      <div class="card">
+        <h3>Colors that Pop</h3>
+        <p>Master the art of mixing and matching colors to make your outfit shine.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="inspiration">
+    <h2>Inspiration</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Celebrity Styles</h3>
+        <p>See how top celebrities are influencing trends and how to adapt their looks.</p>
+      </div>
+      <div class="card">
+        <h3>Runway Highlights</h3>
+        <p>Catch up on the most stunning fashion shows and collections worldwide.</p>
+      </div>
+      <div class="card">
+        <h3>Street Style Icons</h3>
+        <p>Everyday people with bold choices who inspire global fashion culture.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Fashion Angel. All rights reserved.</p>
+  </footer>
+</body>
+</html>
